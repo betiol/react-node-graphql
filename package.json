@@ -2,11 +2,15 @@
   "name": "users",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
     "graphql": "^0.10.1",
+    "json-server": "^0.10.1",
     "lodash": "^4.17.4"
   }
 }
